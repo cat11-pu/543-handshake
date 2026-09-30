@@ -1,0 +1,11 @@
+{
+  "server_id": "cometd-edge-01",
+  "versions": ["1.0"],
+  "connection_types": ["websocket"],
+  "timeout_ms": {"min": 60000, "max": 300000},
+  "max_concurrency": 4,
+  "poll_budget_ms": 3000,
+  "reconnect_ms": {"min": 500, "max": 8000},
+  "extension_whitelist": ["ack", "batch"],
+  "required_message_types": ["/meta/handshake", "/meta/connect", "/meta/disconnect"]
+}

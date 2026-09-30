@@ -1,0 +1,8 @@
+{
+  "client_id": "bridge-01",
+  "versions": ["1.0", "0.9"],
+  "connection_types": ["long-polling", "callback-polling"],
+  "timeout_ms": {"min": 30000, "max": 90000},
+  "message_types": ["/meta/handshake", "/meta/connect", "/meta/subscribe", "/meta/unsubscribe", "/meta/disconnect"],
+  "extensions": ["timesync", "ack"]
+}

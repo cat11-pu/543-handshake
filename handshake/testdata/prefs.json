@@ -1,0 +1,5 @@
+{
+  "version_pick": "highest",
+  "connection_type_priority": ["long-polling", "callback-polling"],
+  "timeout_pick": "server"
+}
